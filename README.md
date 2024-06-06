@@ -20,14 +20,14 @@
         <output_dir> - Папка, в которую будут помещены расжатые файлы.
 
 ## Примеры использования
-    ./huffman_comressor encode MyText.txt compressedText
+    ./huffman_compressor encode MyText.txt compressedText
         - Закодирует файл MyText в файл compressedText.huff
 
-    ./huffman_comressor decode compressedText.huff MyText.txt
+    ./huffman_compressor decode compressedText.huff MyText.txt
         - Декодирует файл compressedText.huff в файл MyText.txt
 
-    ./huffman_comressor encode_dir MyFiles files
+    ./huffman_compressor encode_dir MyFiles files
         - Закодирует все файлы в папке MyFiles в файл files.huffPack
 
-    ./huffman_comressor decode_pack files.huffPack MyFiles
+    ./huffman_compressor decode_pack files.huffPack MyFiles
         - Декодирует файл files.huffPack и переместит полученные файлы в папку MyFiles
